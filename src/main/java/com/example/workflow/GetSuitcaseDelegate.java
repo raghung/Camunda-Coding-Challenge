@@ -13,7 +13,7 @@ public class GetSuitcaseDelegate implements JavaDelegate {
 
         if (conversation.equals("Europe")){
             delegateExecution.setVariable("haveSuitcase", true);
-            System.out.println("Vincent and Jules get the suitcase. They survived a shooting. Back in the car they accidentally kill Marvin. They change clothes. Afterwards they have breakfast in a dinner");
+            System.out.println("Vincent and Jules get the suitcase. They survived a shooting. Back in the car they accidentally kill Marvin. They change clothes. Afterwards they have breakfast in a diner");
         } else {
             delegateExecution.setVariable("haveSuitcase", false);
             System.out.println("Vincent and Jules could not get the suitcase and died while trying --> sorry not the right story ending");
